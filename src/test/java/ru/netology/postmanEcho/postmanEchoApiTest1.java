@@ -34,6 +34,6 @@ public class postmanEchoApiTest1 {
         validatableResponse.statusLine("HTTP/1.1 200 OK");
         validatableResponse.body("data.name", equalTo("myFirstPostApiByJava"));
         validatableResponse.body("data.date", equalTo("24.02.2022"));
-        validatableResponse.body("data.message", equalTo("noWar"));
+        validatableResponse.body("data.message", equalTo("War"));
     }
 }
